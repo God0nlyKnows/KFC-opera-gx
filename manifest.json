@@ -1,0 +1,42 @@
+{
+    "name": "KFC Chickendales",
+    "description": "KFC Chickendales video wallpaper",
+    "developer":
+    {
+        "name": "God0nlyKnows"
+    },
+    "icons":
+    {
+        "16": "icons/icon16.jpg",
+        "32": "icons/icon32.jpg",
+        "48": "icons/icon48.jpg",
+        "128": "icons/icon128.jpg",
+        "512": "icons/icon512.jpg"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/KFC.webm",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575",
+                    "first_frame": "wallpaper/first_frame.jpg"
+                },
+                "light":
+                {
+                    "image": "wallpaper/KFC.webm",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E",
+                    "first_frame": "wallpaper/first_frame.jpg"
+                }
+            }
+        }
+    },
+    "version": "1.2"
+}
